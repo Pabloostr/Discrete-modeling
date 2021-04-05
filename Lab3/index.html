@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>Ostrozhynkyi</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="Main.js"></script>
+  </head>
+
+  <body>
+        <div id="controller">
+          <div id="container_left">
+            <textarea id="input_text" readonly></textarea>
+            <label id="label_input" for="file-upload" class="custom-file-upload">
+              Вибрати файл..
+            </label>
+            <input id="file-upload" type="file"> 
+          </div>
+          
+
+          <div id="controller_right">
+              <form>
+                <p id="p_select">Лабораторна робота №3:</p>
+                <div>
+                 
+                  <input type="radio" id="labChoice3" name="lab">
+                  <label for="labChoice3">Задача комівояжера</label>
+                  <br>
+                  <br>
+                  
+                </div>
+                <div>
+                </div>
+              </form>
+              <button id="start_button" onclick="starter()">Порахувати</button>
+
+            </div>
+        </div> 
+
+        <div id="result_box">
+          <textarea id="result_text" readonly></textarea>
+        </div>
+    <script src="reader.js"></script> 
+</body> 

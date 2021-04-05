@@ -1,0 +1,125 @@
+html{
+    background-color: white;
+    user-select: none;
+}
+
+#controller{
+    position: relative;
+    right: -325px;
+    margin: 2%;
+    width: 40%;
+    height: 500px;
+    padding: 2%;
+      
+}
+
+#input_text{
+    position: relative;
+    width: 85%;
+    height: 75%;
+    border-radius: 1px;
+    background-color: #F5F5F5;
+    
+}
+
+#container_left{ 
+    float: left;
+    width: 40%;
+    height: 50%;
+}
+
+#controller_right{
+    text-align: center;
+    padding-left: 5%;
+    float: left;
+    margin-left: 5%;
+    width: 35%;
+     
+}
+
+input[type='radio']:disabled {
+    pointer-events: none;
+}
+
+input[type='radio']:disabled + label{
+    text-decoration: black line-through;
+}
+
+label {
+    display: inline;
+    text-align: Center;
+    padding-top: 3%;
+    width: 100%;
+    height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    
+  }
+  
+  input {
+    display: none;
+  }
+  
+  input[type="radio"]:checked + label {
+    
+  }
+  
+
+#start_button{
+    color: #800000;
+    width: 90%;
+    height: 70px;
+    font-size: 25px;
+    margin-top: 5%;
+    bottom: 0;
+    transition: 0.3s;
+   
+   
+}
+
+#start_button:active{ 
+}
+
+#p_select{
+    font-size: 25px;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+#label_input{
+    position: relative;
+    display:inline;
+    height: 3%;
+    width: 80px;   
+    
+}
+
+#label_input:hover{
+    color: rgb(37, 73, 179);
+    
+}
+
+#result_box{
+    position: relative;
+    right: -270px;
+    top: -330px;
+    margin: 0%;
+    margin-left: 0%;
+    width: 60%;
+    height: 600px;
+    padding: 1%;
+}
+
+#result_text{
+    width: 105%;
+    height: 90%;
+    font-size: 20px;
+    font-weight: bold;   
+   
+}
+
+textarea{
+    resize: none;
+}
